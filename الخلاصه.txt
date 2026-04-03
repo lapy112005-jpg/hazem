@@ -1,0 +1,51 @@
+ملف التايب سكربت ............tsc -w
+ملف الجافا سكربت ............node --watch index.js
+
+
+
+
+أولاً: ملف tsconfig.json بيتعمل إزاي ؟
+
+بعد ما تثبت TypeScript:
+
+npm install typescript --save-dev
+
+تعمل ملف الكونفيج بالأمر:
+
+npx tsc --init
+
+الأمر ده بيعمل ملف اسمه:
+
+tsconfig.json
+
+في نفس فولدر المشروع.
+
+✅ فايدة tsconfig.json
+
+الملف ده بيقول للـ TypeScript:
+
+هتترجم الكود فين
+
+هتطلع JavaScript فين
+
+تستخدم strict ولا لا
+
+تستخدم ES كام
+
+تشمل انهي فايلات
+
+تستبعد انهي فايلات
+
+يعني باختصار:
+
+tsconfig.json = إعدادات تشغيل TypeScript
+........................حلاصه الخصلاصه......................
+
+هعمل فولدر src وفولدر dist
+ثم
+tsc --init
+npm init -y
+
+هروح لل tsconfig واعمل
+"rootDir": "./src",
+"outDir": "./dist/main.js",
